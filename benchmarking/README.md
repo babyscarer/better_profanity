@@ -32,9 +32,9 @@ python scripts/filter_memory.py <WORDLIST>
 
 To test the speed of text censoring against a dataset of paragraphs run
 
-```sh
-python scripts/paragraphs.py
-```
+`````md
+Testing, testing, one, two, three.
+`````
 
 Note that this script uses `pytest` and `pytest-benchmark`. If you run the command via `pytest scripts/paragraphs.py` you will have more control over the benchmarking procedures. Read up on [`pytest-benchmark`'s command-line options](https://pytest-benchmark.readthedocs.io/en/latest/usage.html#commandline-options) for more details.
 
